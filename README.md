@@ -10,8 +10,10 @@ Welcome to the React Blogging Website, a full-stack web application designed to 
 📸 Image Upload: Enhance your posts by adding images.
 🌐 Seamless Integration: Built with Axios for API requests, Mongoose for database management, Node.js for the server, and Express.js as the backend framework.
 📂 File Uploads: Utilize Multer to effortlessly upload images for your blog content.
-🛠 Tech Stack:
 
+
+
+🛠 Tech Stack:
 React - For the front-end user interface.
 Axios - Handling API requests.
 Node.js - Powering the server-side logic.
