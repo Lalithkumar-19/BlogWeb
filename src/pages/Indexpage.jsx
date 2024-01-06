@@ -33,7 +33,7 @@ export default function Indexpage() {
             {
 
                 posts ? (posts.map(per => {
-                    return <Post key={per._id} title={per.title} summary={per.summary} create_at={per.createdAt} _id={per._id} cover={per.cover} author={per.author.username} />
+                    return <Post key={per._id} title={per.title} summary={per.summary} create_at={per.createdAt} _id={per._id} cover={"https://lalithblogweb.onrender.com/"+per.cover} author={per.author.username} />
 
 
                 })) : (
