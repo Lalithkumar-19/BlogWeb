@@ -12,7 +12,7 @@ const navigate=useNavigate();
   useEffect( ()=>{
 
     
-    fetch('http://localhost:2000/profile',{
+    fetch('https://lalithblogweb.onrender.com/profile',{
       credentials:'include',
     }).then(res=>{
       res.json().then(userinfo=>{
@@ -24,7 +24,7 @@ const navigate=useNavigate();
   },[]);
 
   function logout(){
-    fetch("http://localhost:2000/logout",{
+    fetch("https://lalithblogweb.onrender.com/logout",{
       credentials:'include',
       method:"POST",
 
