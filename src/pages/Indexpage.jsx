@@ -11,9 +11,9 @@ export default function Indexpage() {
     console.log("user info is", userinfo);
 
     const [posts, setPosts] = useState([]);
-    console.log(";o;s",posts);
+
     useEffect(() => {
-        fetch('http://localhost:2000/post').then(res => {
+        fetch('https://lalithblogweb.onrender.com/post').then(res => {
             res.json().then(posts => {
 
                 setPosts(posts);
