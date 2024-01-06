@@ -15,7 +15,7 @@ function Editpage() {
 
 useEffect(
     ()=>{
-        fetch('http://localhost:2000/post/'+id)
+        fetch('https://lalithblogweb.onrender.com/'+id)
         .then(
             res=>{
                 res.json().then(postinform=>{
@@ -43,7 +43,7 @@ async function updatepost(e){
     }
 
 
- const response=  await fetch('http://localhost:2000/post',{
+ const response=  await fetch('https://lalithblogweb.onrender.com/post',{
         method:"PUT",
         body:data,
         credentials:'include',
