@@ -24,7 +24,7 @@ async function  createpost(e){
     data.set("file",files[0])
      console.log("data in post",data);
     e.preventDefault();
-const response= await fetch('http://localhost:2000/post',{
+const response= await fetch('https://lalithblogweb.onrender.com/post',{
         method:"POST",
         body:data,
         credentials:"include",
