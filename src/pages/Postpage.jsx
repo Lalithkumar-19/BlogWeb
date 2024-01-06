@@ -14,7 +14,7 @@ function Postpage() {
     const [postinfo, setPostinfo] = useState(null);
     const { userinfo } = useContext(UserContext)
     useEffect(() => {
-        fetch(`http://localhost:2000/post/${id}`).then(
+        fetch(`https://lalithblogweb.onrender.com/${id}`).then(
             response => {
                 response.json().then(postInfo => {
                     setPostinfo(postInfo);
@@ -43,7 +43,7 @@ function Postpage() {
                 <div className='post_page'>
 
                     <div className='image'>
-                        <img src={`http://localhost:2000/${postinfo.cover}`} alt='cover image' />
+                        <img src={`https://lalithblogweb.onrender.com/${postinfo.cover}`} alt='cover image' />
 
                     </div>
                     <h1>{postinfo.title}</h1>
