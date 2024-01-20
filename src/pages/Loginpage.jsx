@@ -63,7 +63,7 @@ if(redirect){
         />
 
         
-        <button type='submit' >Login</button>
+        <button onClick={login} type='submit' >Login</button>
         </form>
 
 </main>
