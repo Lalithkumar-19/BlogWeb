@@ -14,7 +14,7 @@ function Postpage() {
     const [postinfo, setPostinfo] = useState(null);
     const { userinfo } = useContext(UserContext)
     useEffect(() => {
-        fetch(`https://lalithblogweb.onrender.com/${id}`).then(
+        fetch(`https://lalithblogweb.onrender.com/post/${id}`).then(
             response => {
                 response.json().then(postInfo => {
                     setPostinfo(postInfo);
