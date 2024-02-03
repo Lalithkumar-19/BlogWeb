@@ -38,9 +38,9 @@ export default function Indexpage() {
 
 
                 })) : (
-                    <>
+                    <div>
                     <Loaderpage/>
-                    </>
+                    </div>
                 )
             }
 
