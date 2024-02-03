@@ -2,7 +2,7 @@ import "./App.css";
 import { format } from "date-fns";
 import { Link } from "react-router-dom";
 
-function Post({ _id, title, summary, create_at, author, cover }) {
+function Post({ _id, title, summary, create_at,author,cover }) {
   return (
     <main>
       <div className='post'>
@@ -19,7 +19,7 @@ function Post({ _id, title, summary, create_at, author, cover }) {
           </Link>
 
           <p className="info">
-            <p className='author' '>{author}</p>
+            <p className='author'>{author}</p>
             <time> {format(new Date(create_at), 'MMM d,yyyy HH:mm')}</time>
 
           </p>
