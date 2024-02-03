@@ -19,7 +19,7 @@ function Post({ _id, title, summary, create_at, author, cover }) {
           </Link>
 
           <p className="info">
-            <p className='author' '>{author}</p>
+            <p className='author'>{author}</p>
             <time> {format(new Date(create_at), 'MMM d,yyyy HH:mm')}</time>
 
           </p>
